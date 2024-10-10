@@ -30,19 +30,19 @@ public class PlayerMovement : MonoBehaviour
         CheckIfGrounded();
         //TODO: Check for user input to move player left or right
         //Hint: Use Input.GetKey(...)
-        /*
         
-        if(...){
+        
+        if(Input.GetKey(KeyCode.A)){
             anim.SetBool("isRunning", true);
             moveDirection = -1;
-        } else if(...){
+        } else if(Input.GetKey(KeyCode.D)){
             anim.SetBool("isRunning", true);
             moveDirection = 1;
         } else {
             anim.SetBool("isRunning", false);
             moveDirection = 0;
         }
-        */
+        
 
 
         //TODO: Check for user input to make player jump + logic for when player should be able to jump
